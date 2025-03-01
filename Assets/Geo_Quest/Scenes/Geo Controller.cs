@@ -63,7 +63,17 @@ public class GeoController : MonoBehaviour
 
                 }
             case "Finish":
-                { SceneManager.GetActiveScene().name}
+                { SceneManager.LoadScene(nextlevel);
+                    break;
+                
+                
+                }
+       
+        
+        
+        
+        
+        
         }
     }
 }
